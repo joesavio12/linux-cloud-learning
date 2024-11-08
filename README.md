@@ -2,18 +2,18 @@
 
 Welcome to my repository, where I am documenting my progress in learning Linux and cloud computing. This repository contains notes, examples, scripts, and projects that I’m working on as I learn more about these topics.
 
-## Goals
+ Goals
 - Build a solid foundation in Linux system administration.
 - Learn key networking concepts and commands.
 - Gain proficiency in scripting and automation.
 - Explore cloud-specific tools and infrastructure management.
 
-## Table of Contents
+ Table of Contents
 - [Topics Covered](#topics-covered)
 - [Progress Tracker](#progress-tracker)
 - [Resources](#resources)
 
-## Topics Covered
+ Topics Covered
 
 Here are the main topics I plan to cover in this repository. Each topic links to a dedicated section or file with detailed notes and examples.
 
@@ -33,7 +33,7 @@ Here are the main topics I plan to cover in this repository. Each topic links to
    - Docker basics and container management
    - Introduction to Infrastructure as Code with Terraform
 
-## Progress Tracker
+ Progress Tracker
 
 - [ ] Linux Basics
 - [ ] Networking Basics
@@ -41,7 +41,7 @@ Here are the main topics I plan to cover in this repository. Each topic links to
 - [ ] Cloud CLI and Docker
 - [ ] Infrastructure as Code with Terraform
 
-## Resources
+ Resources
 
 Here are some of the resources I am using for my studies. I will update this section as I discover new ones.
 
@@ -52,7 +52,7 @@ Here are some of the resources I am using for my studies. I will update this sec
 
 
 
-## Overview
+ Overview
 
 This repository is a living document of my learning process in Linux and cloud computing. Each section is divided by topic, and within each section, I document key concepts, commands, and examples.
 
