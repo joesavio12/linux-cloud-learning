@@ -6,7 +6,7 @@ Welcome to my repository, where I am documenting my progress in learning Linux a
 - Build a solid foundation in Linux system administration.
 - Learn key networking concepts and commands.
 - Gain proficiency in scripting and automation.
-- Explore cloud-specific tools and infrastructure management.
+- Explore Azure cloud-specific tools and infrastructure management.
 
  Table of Contents
 - [Topics Covered](#topics-covered)
