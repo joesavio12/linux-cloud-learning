@@ -1,4 +1,4 @@
-# My Linux and Cloud Computing Learning Journey
+ My Linux and Cloud Computing Learning Journey
 
 Welcome to my repository, where I am documenting my progress in learning Linux and cloud computing. This repository contains notes, examples, scripts, and projects that I’m working on as I learn more about these topics.
 
@@ -18,7 +18,7 @@ Welcome to my repository, where I am documenting my progress in learning Linux a
 Here are the main topics I plan to cover in this repository. Each topic links to a dedicated section or file with detailed notes and examples.
 
 1. [Linux Basics]
-   - Navigation and file management commands
+   - [Commands](./Basics/commands.md): Basic Linux commands for file navigation and management
    - Understanding the Linux filesystem
    - User and file permissions
 2. [Networking]
