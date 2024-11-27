@@ -20,7 +20,7 @@ Note : Directory is same as Folder
 BASIC FILE EDITING
 
 4. touch - creates a file
-   e.g., $touch test.txt - creates a text file called 'test'.
+	$touch test.txt - creates a text file called 'test'.
 
 5. $nano - opens a text editor
 
@@ -28,5 +28,14 @@ BASIC FILE EDITING
 
 MOVING AND RENAMING FILES
  
- 
+7. $cp - copy
+	 $cp test2.txt newfile.txt - copy everything from test2.txt to newfile.txt after creating newfile.txt
+
+8. $cat - to display the file
+
+9. $diff - diff file1 file2: difference between two files
+
+10. 
+
+11. 
 
