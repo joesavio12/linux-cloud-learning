@@ -35,7 +35,81 @@ MOVING AND RENAMING FILES
 
 9. $diff - diff file1 file2: difference between two files
 
-10. 
+10. $rm - remove/delete 
 
-11. 
+11. $mv - move
+	mv file1 file2 - move file1 to file2
+
+PERMISSIONS
+
+12. Permission string - 1 2 3 4 5 6 7 8 9 10
+	bit 1 - Directory or file
+	bit 2,3,4 - user (owner of the file or directory)
+	bit 5,6,7 - Group
+	bit 8,9,10 - Other(aka "world")
+	eg, drwxr-xr-x 3 joe-savio joe-savio 4096 Oct 24 21:41 Desktop
+	r - read(able to see contents), 
+	w - write(able to change contents),
+	x - execute(able to enter into directory)
+
+
+CHECKING RESOURCE USAGE
+
+13. $free
+
+14. $free -m
+
+15. $df - Disk free
+
+16. df -h : h- human readable
+
+17. df -i : i - inodes, files
+
+18. htop
+
+19. uptime - load average: over the last minute, over the last 5 minutes, over the last 15 minutes.
+
+PACKAGE MANAGEMENT
+
+20. sudo apt update
+
+21. apt search
+
+22. sudo apt install apache2
+
+23. sudo apt remove apache2
+
+24. sudo apt upgrade
+
+25. sudo apt dist-upgrade
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
