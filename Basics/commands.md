@@ -83,7 +83,10 @@ PACKAGE MANAGEMENT
 
 25. sudo apt dist-upgrade
 
+MANAGING SYSTEMD UNITS
 
+26. systemctl status 
+Reference screenshot - (./images/systemctl.png)
 
 
 
