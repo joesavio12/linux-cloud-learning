@@ -86,7 +86,8 @@ PACKAGE MANAGEMENT
 MANAGING SYSTEMD UNITS
 
 26. systemctl status 
-Reference screenshot - (./images/systemctl.png)
+[![Reference screenshot](./images/systemctl.png)](./images/systemctl.png)
+
 
 
 
