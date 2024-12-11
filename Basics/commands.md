@@ -85,9 +85,79 @@ PACKAGE MANAGEMENT
 
 MANAGING SYSTEMD UNITS
 
-26. systemctl status 
-[![Reference screenshot](./images/systemctl.png)](./images/systemctl.png)
+26. systemctl status "name of unit" 
+[![Reference screenshot](./images/systemctl.png)]
 
+27. sudo systemctl disable/enable "name of unit"
+[![Reference screenshot](./images/disabled_unit.png)]
+
+28. sudo systemctl stop/start "name of unit" 
+[![Reference screenshot](./images/unit_stopped.png)]
+
+29. In Linux, units are a core concept of the `systemd` system and service manager. A unit represents a single object that `systemd` can manage, such as a service, a socket, a device, a mount point, or even a target for system states. Units are defined using unit files, which describe their configuration and behavior.
+
+  Types of Units in Linux
+
+There are several types of units, each with a specific purpose:
+
+| Unit Type    | File Extension | Description                                                                 |
+|-------------------|--------------------|---------------------------------------------------------------------------------|
+| Service       | `.service`         | Represents a service (e.g., a daemon like `nginx` or `ssh`).                   |
+| Socket        | `.socket`          | Represents a socket for inter-process communication (IPC).                     |
+| Target        | `.target`          | Represents a group of units (used to manage system states like `multi-user`).  |
+| Mount         | `.mount`           | Represents a mount point in the filesystem.                                    |
+| Device        | `.device`          | Represents a device recognized by the kernel.                                  |
+| Timer         | `.timer`           | Represents a timer for scheduling tasks (replaces `cron` in some cases).       |
+| Swap          | `.swap`            | Represents a swap file or partition.                                           |
+| Path          | `.path`            | Represents a path in the filesystem to monitor for changes.                    |
+| Slice         | `.slice`           | Represents a group of units for resource management.                           |
+| Scope         | `.scope`           | Represents external processes started by something other than `systemd`.       |
+
+
+
+  Common Unit Examples
+
+1. Service Unit (`.service`):
+   Manages services like `ssh` or `nginx`.
+   - Example: `/lib/systemd/system/ssh.service`
+
+2. Socket Unit (`.socket`):
+   Manages sockets for services that use socket-based activation.
+   - Example: `/lib/systemd/system/cups.socket`
+
+3. Target Unit (`.target`):
+   Represents system states or milestones.
+   - Example: `/lib/systemd/system/multi-user.target`
+
+4. Timer Unit (`.timer`):
+   Schedules tasks based on time or intervals.
+   - Example: `/etc/systemd/system/backup.timer`
+
+MANAGING USERS
+30. cat /etc/passwd
+
+31.sudo cat/etc/shadow
+
+32. cat /etc/group
+
+33.groups
+
+34.sudo adduser "name of the new user" # Adds new user
+
+35. su - "new user name" # to got to the new user
+
+36. sudo su - "new user name"
+
+37. sudo userdel -r "new user name" # This will delete the user and the files !! USE CAREFULLY"
+Note: ignore this message, "userdel: andor mail spool (/var/mail/andor) not found"
+
+38. sudo groupadd "name of the new group" #To add a new group
+
+39. sudo usermod -aG "name of the new group" user-name # will add the user to the new group
+
+40. sudo gpasswd -d user-name "name of the group" # Removes the user from the group
+
+41. sudo groupdel "name of group to be deleted" # to delete a group
 
 
 
