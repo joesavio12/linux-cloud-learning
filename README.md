@@ -18,24 +18,13 @@ Welcome to my repository, where I am documenting my progress in learning Linux a
 Here are the main topics I plan to cover in this repository. Each topic links to a dedicated section or file with detailed notes and examples.
 
 1. [Linux Basics]
-   - [Commands](./Basics/commands.md): Basic Linux commands for file navigation and management
-   - Understanding the Linux filesystem
-   - User and file permissions
-2. [Networking]
-   - IP configuration and DNS
-   - SSH setup and usage
-   - Basic firewall configuration
-3. [Scripting]
-   - Bash scripting fundamentals
-   - Automating tasks with cron
-4. [Cloud Tools]
-   - Working with Azure CLI 
-   - Docker basics and container management
-   - Introduction to Infrastructure as Code with Terraform
-
+   - [Commands](./Basics/commands.md)
+   -Basic Linux commands for file navigation and management 
+   -Understanding the Linux filesystem 
+   -User and file permissions
  Progress Tracker
 
-- [ ] Linux Basics
+- [x] Linux Basics
 - [ ] Networking Basics
 - [ ] Bash Scripting
 - [ ] Cloud CLI and Docker
@@ -43,12 +32,7 @@ Here are the main topics I plan to cover in this repository. Each topic links to
 
  Resources
 
-Here are some of the resources I am using for my studies. I will update this section as I discover new ones.
 
-- [Linux Command Line Basics]
-- [DigitalOcean SSH Key Guide]
-- [Bash Scripting Tutorial]
-- [Azure CLI Documentation]
 
 
 
