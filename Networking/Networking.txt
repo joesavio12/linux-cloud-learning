@@ -1,0 +1,47 @@
+Basics
+NETSTAT
+1. What is netstat?
+netstat (short for network statistics) is a command-line tool that provides information about:
+    * Active network connections (both incoming and outgoing). 
+    * Routing tables. 
+    * Interface statistics. 
+    * Masquerade connections (NAT). 
+    * Multicast memberships. 
+2. Basic netstat Syntax
+The basic syntax for netstat:
+netstat [options]
+3. Commonly Used Options in netstat
+3.1 Show Active Network Connections
+netstat
+    * Displays all active connections. 
+3.2 Display Listening Ports
+netstat -l
+    * Lists only the listening ports (services waiting for a connection). 
+3.3 Show TCP Connections
+netstat -t
+    * Displays all TCP connections. 
+3.4 Show UDP Connections
+netstat -u
+    * Displays all UDP connections. 
+3.5 Include PID/Program Name
+netstat -p
+    * Shows which program is using the connection, along with its PID. 
+3.6 Combine Options
+netstat -tuln
+    * Displays: 
+        * TCP connections (-t). 
+        * UDP connections (-u). 
+        * Listening ports only (-l). 
+        * Numeric addresses (-n). 
+3.7 Routing Table
+netstat -r
+    * Displays the routing table, similar to the route command. 
+3.8 Interface Statistics
+netstat -i
+    * Displays information about network interfaces (e.g., packets sent, received, errors). 
+3.9 Network Statistics
+netstat -s
+    * Shows detailed statistics for each protocol (e.g., TCP, UDP).
+Example: 
+1. netstat -tupln. shows tcp and udp ports, program attached to those ports, listening ports and numeric
+	*sudo netstat -tupln will give root access and more info.
