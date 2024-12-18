@@ -24,6 +24,11 @@ Here are the main topics I plan to cover in this repository. Each topic links to
    -User and file permissions
  Progress Tracker
 
+2. [Networking basics]
+   -[Networking Commands](./Networking/Networking.txt)
+   -netstat
+
+
 - [x] Linux Basics
 - [ ] Networking Basics
 - [ ] Bash Scripting
