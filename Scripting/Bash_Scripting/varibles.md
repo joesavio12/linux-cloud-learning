@@ -1,13 +1,29 @@
-##VARIABLES##
+## VARIABLES
 
 - To declare a variable in command line, var_name="name"
-	'myname="Joe"'
+  
+```bash
+myname="Joe"
+``` 
+
 - To reference(Call) a variable
-	'echo $myname'
+  
+```bash
+echo $myname'
+```
 - Can assign the output of a command to a variable
-	'files=$(ls)'
+  
+```bash
+files=$(ls)'
+```
 - to print date and time
-	'date'
+  
+```bash
+date
+```
 - to print the user name
-	'echo $USER'
+  
+```bash
+echo $USER
+```
 Note: USER is an environment variable. Don't give the user built variable name all caps.  
