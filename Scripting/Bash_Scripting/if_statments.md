@@ -32,7 +32,7 @@ if [ ! condition ] '!' will checks the reverse of the condition.
 
 which - checks if a command exists
 
-[Example](./Scripting/Bash_Scripting/scripts/which.sh)(./Scripting/Bash_Scripting/scripts/which.sh)
+[Example](./scripts/which.sh)(./scripts/which.sh)
 ```
 if [ -f ~/my_file ]
 then  
