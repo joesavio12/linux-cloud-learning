@@ -1,46 +1,47 @@
-Basic Linux Commands
+## Basic Linux Commands
 
-NAVIGATING THE FILE SYSTEM
+### NAVIGATING THE FILE SYSTEM
 Note : Directory is same as Folder
        man ls will give all options related to that command(here its ls)
        clear to clear the screen
 
-1. $pwd - Print Working Directory
+1. `pwd` - Print Working Directory
 	outputs which is the current directory.
-2. $ls - list storage
+2. `ls` - list storage
 	
-   $ls /   File system at the beginning of the hard drive.
-   $ls -l/ Long listing
+   `ls /`   File system at the beginning of the hard drive.
+
+   `ls -l`/ Long listing
 
 	
-3. $cd - Change directory
-	cd .. - goes one level up(To the previous directory)
-	cd directory/ - Goes to the respective directory
+3. `cd` - Change directory
+	`cd ..` - goes one level up(To the previous directory)
+	`cd directory/` - Goes to the respective directory
 
-BASIC FILE EDITING
+### BASIC FILE EDITING
 
-4. touch - creates a file
-	$touch test.txt - creates a text file called 'test'.
+4. `touch` - creates a file
+	`touch test.txt` - creates a text file called 'test'.
 
-5. $nano - opens a text editor
+5. `nano` - opens a text editor
 
-6. $which - checks if command is installed.
+6. `which` - checks if command is installed.
 
-MOVING AND RENAMING FILES
+### MOVING AND RENAMING FILES
  
-7. $cp - copy
-	 $cp test2.txt newfile.txt - copy everything from test2.txt to newfile.txt after creating newfile.txt
+7. `cp` - copy
+	 `cp test2.txt newfile.txt` - copy everything from test2.txt to newfile.txt after creating newfile.txt
 
-8. $cat - to display the file
+8. `cat` - to display the file
 
-9. $diff - diff file1 file2: difference between two files
+9. $diff - `diff file1 file2`: difference between two files
 
 10. $rm - remove/delete 
 
 11. $mv - move
-	mv file1 file2 - move file1 to file2
+	`mv file1 file2` - move file1 to file2
 
-PERMISSIONS
+### PERMISSIONS
 
 12. Permission string - 1 2 3 4 5 6 7 8 9 10
 	bit 1 - Directory or file
@@ -53,7 +54,7 @@ PERMISSIONS
 	x - execute(able to enter into directory)
 
 
-CHECKING RESOURCE USAGE
+### CHECKING RESOURCE USAGE
 
 13. $free
 
@@ -69,7 +70,7 @@ CHECKING RESOURCE USAGE
 
 19. uptime - load average: over the last minute, over the last 5 minutes, over the last 15 minutes.
 
-PACKAGE MANAGEMENT
+### PACKAGE MANAGEMENT
 
 20. sudo apt update
 
@@ -83,7 +84,7 @@ PACKAGE MANAGEMENT
 
 25. sudo apt dist-upgrade
 
-MANAGING SYSTEMD UNITS
+### MANAGING SYSTEMD UNITS
 
 26. systemctl status "name of unit" 
 [![Reference screenshot](./images/systemctl.png)]
@@ -133,7 +134,7 @@ There are several types of units, each with a specific purpose:
    Schedules tasks based on time or intervals.
    - Example: `/etc/systemd/system/backup.timer`
 
-MANAGING USERS
+### MANAGING USERS
 30. cat /etc/passwd
 
 31.sudo cat/etc/shadow
