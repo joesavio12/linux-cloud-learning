@@ -135,30 +135,30 @@ There are several types of units, each with a specific purpose:
    - Example: `/etc/systemd/system/backup.timer`
 
 ### MANAGING USERS
-30. cat /etc/passwd
+30. `cat /etc/passwd`
 
-31.sudo cat/etc/shadow
+31.`sudo cat/etc/shadow`
 
-32. cat /etc/group
+32. `cat /etc/group`
 
-33.groups
+33.`groups`
 
-34.sudo adduser "name of the new user" # Adds new user
+34.`sudo adduser "name of the new user"` # Adds new user
 
-35. su - "new user name" # to got to the new user
+35. `su - "new user name"` # to got to the new user
 
-36. sudo su - "new user name"
+36. `sudo su - "new user name"`
 
-37. sudo userdel -r "new user name" # This will delete the user and the files !! USE CAREFULLY"
+37. `sudo userdel -r "new user name"` # This will delete the user and the files !! USE CAREFULLY"
 Note: ignore this message, "userdel: andor mail spool (/var/mail/andor) not found"
 
-38. sudo groupadd "name of the new group" #To add a new group
+38. `sudo groupadd "name of the new group"` #To add a new group
 
-39. sudo usermod -aG "name of the new group" user-name # will add the user to the new group
+39. `sudo usermod -aG "name of the new group"` user-name # will add the user to the new group
 
-40. sudo gpasswd -d user-name "name of the group" # Removes the user from the group
+40. `sudo gpasswd -d user-name "name of the group"` # Removes the user from the group
 
-41. sudo groupdel "name of group to be deleted" # to delete a group
+41. `sudo groupdel "name of group to be deleted"` # to delete a group
 
 
 
