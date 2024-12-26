@@ -4,7 +4,7 @@ package=htop #uninstall htop to see the successful installation and exit code. t
 
 sudo apt install $package
 
-if [ $? -eg 0 ]
+if [ $? -eq 0 ]
 then
 	echo "The exit code for the package install is: $?"
 	echo "The new command is available here:"
