@@ -28,10 +28,11 @@ Here are the main topics I plan to cover in this repository. Each topic links to
    -[Networking Commands](./Networking/Networking.txt)
    -netstat
 
-
+3. [Scripting]
+   - [Bash Scripting](./Scripting/Bash_Scripting)
 - [x] Linux Basics
 - [ ] Networking Basics
-- [ ] Bash Scripting
+- [x] Bash Scripting
 - [ ] Cloud CLI and Docker
 - [ ] Infrastructure as Code with Terraform
 
